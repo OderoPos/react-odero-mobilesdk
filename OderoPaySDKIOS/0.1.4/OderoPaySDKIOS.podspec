@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
     }
     
     spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = 'shared.xcframework'
+    spec.vendored_frameworks      = 'OderoPaySDKIOS.xcframework', 'shared.xcframework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '13.0'
 
